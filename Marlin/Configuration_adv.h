@@ -2312,8 +2312,8 @@
     // TMC2209: 0...255. TMC2130: -64...63
     #define X_STALL_SENSITIVITY  55
     #define X2_STALL_SENSITIVITY X_STALL_SENSITIVITY
-    #define Z_STALL_SENSITIVITY  50
     #define Y_STALL_SENSITIVITY  55
+    //#define Z_STALL_SENSITIVITY  200
     //#define SPI_ENDSTOPS              // TMC2130 only
     #define IMPROVE_HOMING_RELIABILITY
   #endif
